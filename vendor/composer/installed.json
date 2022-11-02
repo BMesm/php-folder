@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "cumulio/cumul.io-sdk-php",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cumulio/cumul.io-sdk-php.git",
+                "reference": "cabb8bda4bdb4f9f308f8bf755439c8211644e16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cumulio/cumul.io-sdk-php/zipball/cabb8bda4bdb4f9f308f8bf755439c8211644e16",
+                "reference": "cabb8bda4bdb4f9f308f8bf755439c8211644e16",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.2"
+            },
+            "time": "2021-11-26T14:36:18+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Cumulio\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cumul.io Team",
+                    "email": "support@cumul.io",
+                    "homepage": "https://cumul.io"
+                }
+            ],
+            "description": "PHP SDK to interact with the Cumul.io API in order to create, modify or delete datasets, dashboards or push new data into the platform in a programmatic way.",
+            "homepage": "https://github.com/cumulio/cumul.io-sdk-php",
+            "keywords": [
+                "cumul.io",
+                "dashboard",
+                "data visualization"
+            ],
+            "support": {
+                "issues": "https://github.com/cumulio/cumul.io-sdk-php/issues",
+                "source": "https://github.com/cumulio/cumul.io-sdk-php/tree/1.0.1"
+            },
+            "install-path": "../cumulio/cumul.io-sdk-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

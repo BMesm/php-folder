@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cumulio/cumul.io-sdk-php": "^1.0"
+    }
+}
